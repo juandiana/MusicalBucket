@@ -1,0 +1,12 @@
+<midiPort>Cosas Locas</midiPort>
+<defaultThreshold>27</defaultThreshold>
+<defaultWaveSpeed>1.5</defaultWaveSpeed>
+<touchDetectionInterval>10</touchDetectionInterval>
+<totalBalls>5</totalBalls>
+<pitches>
+	<p1>52</p1>
+	<p2>55</p2>
+	<p3>57</p3>
+	<p4>59</p4>
+	<p5>62</p5>
+</pitches>
