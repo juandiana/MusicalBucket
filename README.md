@@ -4,9 +4,13 @@ MusicalBucket
 Interesting experiment that lets you play a simple instrument.
 Made using OpenFrameworks with the following addons: ofxCv, ofxMidi & ofxXmlSettings.
 
-It starts with a calibration phase in which you will be asked to select balls of multiple colors and it will start track them in real time using a camera and OpenCV. Once you have your setup ready, you can start playing by touching and moving the balls. Every time a ball is touched an expansive wave is released, making the ball touched sound and also the other balls as well once the wave gets to them.
+What it does
+============
+The application starts with a calibration phase in which you will be asked to select balls of multiple colors. It will then start tracking those balls in real time with a camera (using OpenCV).
 
-This software acts as a controller only, sending MIDI notes to a MIDI channel. On the other end, you will have a generator such as Ableton Live producing different kind of sounds, thus letting you have very different sets of arrangements.
+Once your setup is ready, you can start playing by touching and moving the balls. Every time a ball is touched a virtual expansive wave is released, making the touched ball sound but also other balls near as the expansive wave gets to them.
+
+This software acts as a controller only, sending MIDI notes into a MIDI channel. On the other end of the channel, you should have a generator such as Ableton Live to produce music. This let you have a very different sets of arrangements to play with.
 
 Art Concept
 ===========
